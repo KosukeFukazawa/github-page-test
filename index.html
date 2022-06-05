@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>three.js bvh viewer</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script type="importmap">
+        {
+        "imports": {
+            "three": "https://unpkg.com/three@0.137.4/build/three.module.js",
+            "controls": "https://unpkg.com/three@0.137.4/examples/jsm/controls/OrbitControls.js",
+            "bvh": "https://unpkg.com/three@0.137.4/examples/jsm/loaders/BVHLoader.js"
+        }
+        }
+    </script>
+    <script src="index.js", type="module"></script>
+</body>
+
+</html>
